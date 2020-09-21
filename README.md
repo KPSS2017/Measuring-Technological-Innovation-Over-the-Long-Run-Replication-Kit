@@ -41,7 +41,9 @@ Please complete the following steps in this order:
 	b. Run the matlab file **TimeSeriesRegressions_Industry_MatlabFigs.m** to generate tikz plots for Figures A.4 and A.5 in the Appendix
 
 5. To create Figure 5, do the following in sequence:
+
 	a. Run the file **CreateIndustryPlots.do** to aggregate the industries at a relatively coarse level; it generates as outputs "Fig_IndInnovationLR.csv"
+	
 	b. Run the matlab file **TSindustryplot.m** to generate Figure 5 in the paper
 
 6. To create Table A.1 and Figure A.1, follow these steps in sequence:
