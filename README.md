@@ -8,7 +8,7 @@ The folder ./code contains all programs, while the folder ./input_data includes 
 
 The folder ./code includes code files of two types of programs: Stata and Matlab. 
 
-#### Preliminaries
+#### Preliminaries:
 
 Please complete the following steps in this order:
 
@@ -22,18 +22,22 @@ Please complete the following steps in this order:
 
 5. The file **Create_Innovation_Indices_Agg.do** creates aggregate innovation indices.
 
-#### Paper Figures and Tables
+#### Paper Figures and Tables:
 
 1. To create Figure 1, run the matlab file **CreatePlotsSimilarityCites.m**
 
 2. To create Figure 3A and 3B and Tables A2 and A3: 
+
 	a. Run the files  **patent_level_figs_CITES.do** and **patent_level_figs_KPSS.do** for the figures 
+	
 	b. Run the files **patent_level_regressions_CITES.do** and **patent_level_regressions_KPSS.do** for the regressions
 
 3. To create Figure 4, run the matlab file **TSaggplot.m**
 
 4. To create Figure A4 and A5, do the following in sequence:
+
 	a. Run the file **Innovation_Productivity_NAICS4.do** for the industry productivity regressions
+	
 	b. Run the matlab file **TimeSeriesRegressions_Industry_MatlabFigs.m** to generate tikz plots for Figures A.4 and A.5 in the Appendix
 
 5. To create Figure 5, do the following in sequence:
@@ -41,7 +45,9 @@ Please complete the following steps in this order:
 	b. Run the matlab file **TSindustryplot.m** to generate Figure 5 in the paper
 
 6. To create Table A.1 and Figure A.1, follow these steps in sequence:
+
 	a. Run the file **HistoricallyImportantPatents_List.do** to generate an intermediate output file named "important_patents_list.csv" which contains the list of patents in Table A.1
+	
 	b. Run the matlab file **Hist_Important_Patents_Fig.m** to generate Figure A.1 in the Appendix
 
 7. To generate Figure A.2, run the file **BreakthroughInnovation_by_TechClass.do**
